@@ -1,0 +1,28 @@
+
+.custom-navbar {
+    background-color: #2E7D32; /* Chic Green */
+    border: none;
+    padding: 10px 0;
+}
+.custom-navbar .navbar-brand {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.custom-navbar .nav > li > a {
+    color: #ffffff;
+    font-size: 16px;
+}
+.custom-navbar .dropdown-menu {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.custom-navbar .dropdown-menu > li > a {
+    color: #2E7D32;
+}
+.custom-navbar .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.custom-navbar .navbar-toggle:hover {
+    background-color: #1B5E20;
+}
