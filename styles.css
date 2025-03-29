@@ -564,7 +564,7 @@ footer p {
 
 /* Fix form-select dropdowns */
 .form-select {
-    background-color: white !important;
+    background-color: #d5e8d1 !important;
     color: #333 !important;
 }
 
