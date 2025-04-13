@@ -18,29 +18,83 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.kingsacademy.edu.jo/about">About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="faq.html">FAQ</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 <li class="nav-item"><a class="nav-link" href="event_listing.html">Events</a></li>
-                <li class="nav-item"><a class="nav-link" href="recommendations.html">Recommendations</a></li>
+                <li class="nav-item"><a class="nav-link" href="event_recommendations.html">Recommendations</a></li>
                 <li class="nav-item dropdown">
                     <button class="btn btn-account dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                         Account
                     </button>
                     <ul class="dropdown-menu glass-panel">
-                        <li><a class="dropdown-item" href="#" id="login-btn">Login</a></li>
-                        <li><a class="dropdown-item" href="#" id="signup-btn">Create Account</a></li>
+                        <li><a class="dropdown-item" href="login.html" id="login-btn">Login</a></li>
+                        <li><a class="dropdown-item" href="create_account.html" id="signup-btn">Create Account</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+
+<!-- Spacer for fixed navbar -->
+<div style="height: 100px;"></div>
+
+<!-- FAQ Section -->
+<section class="faq-section py-5">
+    <div class="container">
+        <div class="glass-panel p-4 p-md-5">
+            <div class="text-center mb-4">
+                <h2 class="highlight">Frequently Asked Questions</h2>
+                <p class="opacity-75">Everything you need to know about using <span class="brand-highlight">EventSphere</span>.</p>
+            </div>
+
+            <div class="accordion" id="faqAccordion">
+                <!-- Question 1 -->
+                <div class="accordion-item bg-transparent border-0 mb-3">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button glass-panel" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            What is EventSphere?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-white">
+                            EventSphere is a platform for discovering, organizing, and recommending events tailored to your interests.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="accordion-item bg-transparent border-0 mb-3">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed glass-panel" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            How can I create an account?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-white">
+                            Click on the "Account" dropdown in the navigation bar and select "Create Account" to register.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="accordion-item bg-transparent border-0 mb-3">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed glass-panel" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            Can I recommend events to others?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-white">
+                            Yes! After logging in, navigate to the Recommendations section to share events you enjoyed with others.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
